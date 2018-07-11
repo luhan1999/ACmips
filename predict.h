@@ -1,6 +1,9 @@
 #ifndef predict_H
 #define predict_H
-//n级分支预测
+/*
+   function:n级分支预测
+*/
+
 class predict{
 	  static const int n = 2;
 	  int state;

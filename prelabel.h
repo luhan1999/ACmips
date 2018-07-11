@@ -1,5 +1,8 @@
 #ifndef prelabel_H
 #define prelabel_H
+/*
+    预处理把标签替换为int
+*/
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
