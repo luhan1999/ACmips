@@ -10,7 +10,7 @@ using std::string;
 #include "Commond.h"
 #include "inti.h"
 #include "CPU.h"
-#include "exec.h"
+//#include "exec.h"
 #include "prelabel.h"
 #include "process.h"
 vector<Commond>commond;

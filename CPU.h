@@ -3,13 +3,14 @@
 /*
    function:模拟CPU里面寄存器的操作
 */
+
+#include "Commond.h"
 #include <map>
 #include <string>
 using std::map;
 using std::string;
-//id用来记录寄存器指向的位置
-map<string, int> id;
-const int maxn = 4 * 1024 * 1024;
+
+#define maxn (4 * 1024 * 1024)
 
 class CPU {
 public:
@@ -20,7 +21,7 @@ public:
 	}
 };
 
-void id_inti()
+inline void id_inti()
 {
 	id["$0"] = id["$zero"] = 0;
 	id["$1"] = id["$at"] = 1;

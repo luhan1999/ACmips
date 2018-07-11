@@ -13,7 +13,7 @@
 #include <cstdio>
 #include <vector>
 #include <string>
-void prefunction(std::vector<Commond> &commond)
+inline void prefunction(std::vector<Commond> &commond)
 {
 	for (int i = 1; i < commond.size(); i++)
 	{

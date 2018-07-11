@@ -6,7 +6,7 @@
 #include <string>
 #include "CPU.h"
 #include "Commond.h"
-void inti()
+inline void inti()
 {
 	id_inti();        
 	StringToOpt();
